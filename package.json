@@ -7,9 +7,8 @@
     },
     "scripts": {
         "ng": "ng",
-        "start": "ng serve --max_old_space_size=2560",
-        "heroku-postbuild": "node --max_old_space_size=8000 ./node_modules/@angular/cli/bin/ng build --prod && npm install -g http-server-spa",
-        "build": "ng build --max_old_space_size=2560",
+        "start": "ng serve",
+        "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
     },
