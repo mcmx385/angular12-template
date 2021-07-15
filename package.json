@@ -3,11 +3,12 @@
     "version": "0.0.0",
     "engines": {
         "node": "14.17.x",
-        "npm": "6.14.x"
+        "npm": "7.19.x"
     },
     "scripts": {
         "ng": "ng",
         "start": "node server.js",
+        "dev": "ng serve",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
@@ -26,6 +27,8 @@
         "@angular/platform-browser-dynamic": "~12.0.4",
         "@angular/router": "~12.0.4",
         "angular-http-server": "^1.10.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.12",
         "path": "^0.12.7",
         "rxjs": "~6.6.0",
         "tslib": "^2.1.0",
